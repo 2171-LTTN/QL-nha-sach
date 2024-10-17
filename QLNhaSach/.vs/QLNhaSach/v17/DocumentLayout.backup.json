@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\dangnhap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\dangnhap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\letra\\onedrive\\desktop\\qlnhasach\\qlnhasach\\qlnhasach\\qlnhasach\\giaodien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\giaodien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\dangnhap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -21,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\qlnhasach\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2929A07-75AD-44C2-B78A-028E6FCAA748}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,36 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "GiaoDien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\GiaoDien.cs",
-              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\GiaoDien.cs [Design]",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.cs [Design]*",
+              "RelativeToolTip": "QLNhaSach\\GiaoDien.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T16:42:35.407Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\DangNhap.cs",
-              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs",
-              "RelativeToolTip": "QLNhaSach\\DangNhap.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:31:59.299Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,65 +81,123 @@
               "RelativeDocumentMoniker": "QLNhaSach\\Program.cs",
               "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\Program.cs",
               "RelativeToolTip": "QLNhaSach\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAApwBIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:26:39.32Z"
+              "WhenOpened": "2024-10-17T02:26:39.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "DangNhap2.cs",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\DangNhap2.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs",
+              "RelativeToolTip": "QLNhaSach\\DangNhap2.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAtwCYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:31:26.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NhanVien.cs",
               "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\NhanVien.cs",
               "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs",
               "RelativeToolTip": "QLNhaSach\\NhanVien.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAApwDQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:24:55.266Z"
+              "WhenOpened": "2024-10-17T02:24:55.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhanVien.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\NhanVien.cs",
-              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\NhanVien.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\DangNhap.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs",
+              "RelativeToolTip": "QLNhaSach\\DangNhap.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:07:21.713Z"
+              "WhenOpened": "2024-10-17T03:45:01.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HoaDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\HoaDon.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\HoaDon.cs",
               "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\HoaDon.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\HoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:06:10.313Z"
+              "WhenOpened": "2024-10-17T02:06:10.313Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DangNhap2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\DangNhap2.cs",
-              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\DangNhap2.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "GiaoDien.cs",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\GiaoDien.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.cs*",
+              "RelativeToolTip": "QLNhaSach\\GiaoDien.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:00:07.354Z"
+              "WhenOpened": "2024-10-17T03:10:53.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\DangNhap.cs",
               "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:11:06.811Z"
+              "WhenOpened": "2024-10-17T03:44:57.583Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiaoDien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.Designer.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\GiaoDien.Designer.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\GiaoDien.Designer.cs",
+              "RelativeToolTip": "QLNhaSach\\GiaoDien.Designer.cs",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAkwKcBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:57:55.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DangNhap2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\DangNhap2.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\DangNhap2.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\DangNhap2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T02:00:07.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\letra\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\QLNhaSach\\QLNhaSach\\NhanVien.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\NhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T02:07:21.713Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

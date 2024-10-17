@@ -21,5 +21,30 @@ namespace QLNhaSach
         {
 
         }
+
+        private void btnLogin2_Click(object sender, EventArgs e)
+        {
+            string username = txtUserName2.Text; // Lấy tên người dùng
+            string password = txtPassWord2.Text; // Lấy mật khẩu
+
+            // Tài khoản mẫu để kiểm tra
+            string validUsername = "admin";
+            string validPassword = "password123";
+
+            if (username == validUsername && password == validPassword)
+            {
+                NhanVien nhanVien = new NhanVien();
+                nhanVien.Show();
+                this.Hide();
+                nhanVien.FormClosed += (s, avg) => this.Close();
+            }
+            else
+            {
+                lblCanhBao.Text = "Tên đăng nhập hoặc mật khẩu không đúng.";
+                lblCanhBao.Visible = true; // Hiển thị thông báo lỗi nếu thông tin sai
+                txtPassWord2.Clear(); // Xóa mật khẩu đã nhập
+            }
+
+        }
     }
 }

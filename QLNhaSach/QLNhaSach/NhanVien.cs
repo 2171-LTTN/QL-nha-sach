@@ -46,5 +46,13 @@ namespace QLNhaSach
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            GiaoDien giaoDien = new GiaoDien();
+            giaoDien.Show();
+            this.Hide();
+            giaoDien.FormClosed += (s, avg) => this.Close();
+        }
     }
 }

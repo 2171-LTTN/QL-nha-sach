@@ -52,9 +52,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtSoLuongSach = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnLogOut = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnHD = new System.Windows.Forms.Button();
+            this.btnKH = new System.Windows.Forms.Button();
+            this.btnNV = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -373,44 +373,45 @@
             this.btnLogOut.UseVisualStyleBackColor = true;
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
-            // button2
+            // btnHD
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(23, 444);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 35);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Tạo Hoá Đơn";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHD.Location = new System.Drawing.Point(23, 444);
+            this.btnHD.Name = "btnHD";
+            this.btnHD.Size = new System.Drawing.Size(140, 35);
+            this.btnHD.TabIndex = 17;
+            this.btnHD.Text = "Tạo Hoá Đơn";
+            this.btnHD.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnKH
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(23, 544);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 35);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Khách Hàng";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKH.Location = new System.Drawing.Point(23, 544);
+            this.btnKH.Name = "btnKH";
+            this.btnKH.Size = new System.Drawing.Size(140, 35);
+            this.btnKH.TabIndex = 18;
+            this.btnKH.Text = "Khách Hàng";
+            this.btnKH.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnNV
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(23, 494);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(140, 35);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "Nhân Viên";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNV.Location = new System.Drawing.Point(23, 494);
+            this.btnNV.Name = "btnNV";
+            this.btnNV.Size = new System.Drawing.Size(140, 35);
+            this.btnNV.TabIndex = 19;
+            this.btnNV.Text = "Nhân Viên";
+            this.btnNV.UseVisualStyleBackColor = true;
+            this.btnNV.Click += new System.EventHandler(this.button5_Click);
             // 
             // GiaoDien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1474, 641);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnNV);
+            this.Controls.Add(this.btnKH);
+            this.Controls.Add(this.btnHD);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtSoLuongSach);
             this.Controls.Add(this.btnLogOut);
@@ -421,6 +422,8 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GiaoDien";
             this.Text = "Quản lý nhà sách";
+            this.MaximumSizeChanged += new System.EventHandler(this.GiaoDien_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GiaoDien_FormClosing);
             this.Load += new System.EventHandler(this.GiaoDien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -455,9 +458,9 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnHD;
+        private System.Windows.Forms.Button btnKH;
+        private System.Windows.Forms.Button btnNV;
         private System.Windows.Forms.Timer timer1;
     }
 }

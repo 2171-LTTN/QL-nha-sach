@@ -16,6 +16,7 @@ namespace QLNhaSach
         public DangNhap()
         {
             InitializeComponent();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -46,8 +47,8 @@ namespace QLNhaSach
             {
                 GiaoDien giaodien = new GiaoDien();
                 giaodien.Show();
-                this.Hide(); // Ẩn form đăng nhập
-                             // new MainForm().Show(); // Bỏ chú thích và tạo form chính của bạn
+                this.Hide();    
+                giaodien.FormClosed += (s, avg)  => this.Close();  
             }
             else
             {
@@ -55,6 +56,11 @@ namespace QLNhaSach
                 label3.Visible = true; // Hiển thị thông báo lỗi nếu thông tin sai
                 txtPassWord.Clear(); // Xóa mật khẩu đã nhập
             }
+        }
+
+        private void Giaodien_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
         }
     }
 }

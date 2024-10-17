@@ -42,9 +42,9 @@
             this.lblCanhBao.ForeColor = System.Drawing.Color.Red;
             this.lblCanhBao.Location = new System.Drawing.Point(147, 206);
             this.lblCanhBao.Name = "lblCanhBao";
-            this.lblCanhBao.Size = new System.Drawing.Size(327, 16);
+            this.lblCanhBao.Size = new System.Drawing.Size(10, 16);
             this.lblCanhBao.TabIndex = 11;
-            this.lblCanhBao.Text = "Tài Khoản Hoặc Mật Khẩu Sai Vui Lòng Kiểm Tra Lại!!!";
+            this.lblCanhBao.Text = " ";
             // 
             // txtPassWord2
             // 
@@ -95,6 +95,7 @@
             this.btnLogin2.TabIndex = 8;
             this.btnLogin2.Text = "Đăng Nhập";
             this.btnLogin2.UseVisualStyleBackColor = true;
+            this.btnLogin2.Click += new System.EventHandler(this.btnLogin2_Click);
             // 
             // label2
             // 

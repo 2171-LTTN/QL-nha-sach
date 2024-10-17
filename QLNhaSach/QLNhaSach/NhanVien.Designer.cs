@@ -44,11 +44,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnLogin2 = new System.Windows.Forms.Button();
             this.txtPassWord2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUserName2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnLogin2 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -163,7 +163,7 @@
             this.txtBookID.PasswordChar = '\0';
             this.txtBookID.PlaceholderText = "";
             this.txtBookID.SelectedText = "";
-            this.txtBookID.Size = new System.Drawing.Size(179, 38);
+            this.txtBookID.Size = new System.Drawing.Size(212, 38);
             this.txtBookID.TabIndex = 5;
             // 
             // label5
@@ -256,6 +256,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thêm Tài Khoản NV";
             // 
+            // btnLogin2
+            // 
+            this.btnLogin2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin2.Location = new System.Drawing.Point(169, 133);
+            this.btnLogin2.Name = "btnLogin2";
+            this.btnLogin2.Size = new System.Drawing.Size(150, 33);
+            this.btnLogin2.TabIndex = 19;
+            this.btnLogin2.Text = "Khởi Tạo";
+            this.btnLogin2.UseVisualStyleBackColor = true;
+            // 
             // txtPassWord2
             // 
             this.txtPassWord2.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -316,25 +326,15 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Tài Khoản";
             // 
-            // btnLogin2
-            // 
-            this.btnLogin2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin2.Location = new System.Drawing.Point(169, 133);
-            this.btnLogin2.Name = "btnLogin2";
-            this.btnLogin2.Size = new System.Drawing.Size(150, 33);
-            this.btnLogin2.TabIndex = 19;
-            this.btnLogin2.Text = "Khởi Tạo";
-            this.btnLogin2.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(26, 592);
+            this.button2.Location = new System.Drawing.Point(26, 581);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(29, 23);
+            this.button2.Size = new System.Drawing.Size(71, 34);
             this.button2.TabIndex = 24;
-            this.button2.Text = "X";
+            this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // NhanVien
             // 
