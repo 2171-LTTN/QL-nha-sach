@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QLNhaSach
 {
-    public partial class HoaDon : Form
+    public partial class ChiTietHoaDon : Form
     {
-        public HoaDon()
+        public ChiTietHoaDon()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
