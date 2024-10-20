@@ -45,15 +45,15 @@ namespace QLNhaSach
 
             if (username == validUsername && password == validPassword)
             {
-                GiaoDien giaodien = new GiaoDien();
-                giaodien.Show();
-                this.Hide();    
-                giaodien.FormClosed += (s, avg)  => this.Close();  
+                // Mở form GiaoDien trong layout
+                layout parentForm = (layout)this.Owner; // Lấy form cha (layout)
+                parentForm.OpenChildFrom(new GiaoDien()); // Gọi phương thức mở form GiaoDien
+                this.Hide(); // Ẩn form đăng nhập
             }
             else
             {
-                label3.Text = "Tên đăng nhập hoặc mật khẩu không đúng.";
-                label3.Visible = true; // Hiển thị thông báo lỗi nếu thông tin sai
+                lblError.Text = "Tên đăng nhập hoặc mật khẩu không đúng.";
+                lblError.Visible = true; // Hiển thị thông báo lỗi nếu thông tin sai
                 txtPassWord.Clear(); // Xóa mật khẩu đã nhập
             }
         }

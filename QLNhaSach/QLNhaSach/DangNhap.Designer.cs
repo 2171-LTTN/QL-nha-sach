@@ -33,7 +33,7 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtUserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPassWord = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -110,22 +110,22 @@
             this.txtPassWord.TabIndex = 4;
             this.txtPassWord.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
-            // label3
+            // lblError
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(156, 229);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(10, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = " ";
+            this.lblError.AutoSize = true;
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(156, 229);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(10, 16);
+            this.lblError.TabIndex = 5;
+            this.lblError.Text = " ";
             // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(591, 298);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.btnLogin);
@@ -146,6 +146,6 @@
         private System.Windows.Forms.Button btnLogin;
         private Guna.UI2.WinForms.Guna2TextBox txtUserName;
         private Guna.UI2.WinForms.Guna2TextBox txtPassWord;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblError;
     }
 }

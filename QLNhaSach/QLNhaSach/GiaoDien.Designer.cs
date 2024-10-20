@@ -31,9 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.cbbTheLoai = new System.Windows.Forms.ComboBox();
@@ -49,13 +46,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtSoLuongSach = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnLogOut = new System.Windows.Forms.Button();
-            this.btnHD = new System.Windows.Forms.Button();
-            this.btnKH = new System.Windows.Forms.Button();
-            this.btnNV = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -63,18 +55,15 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(534, 97);
+            this.dataGridView1.Location = new System.Drawing.Point(560, 97);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(930, 518);
+            this.dataGridView1.Size = new System.Drawing.Size(673, 382);
             this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.cbbTheLoai);
@@ -91,45 +80,15 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(23, 97);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(505, 341);
+            this.groupBox1.Size = new System.Drawing.Size(505, 371);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Sách";
             // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(160, 287);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(55, 26);
-            this.checkBox3.TabIndex = 19;
-            this.checkBox3.Text = ">2";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(97, 287);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(66, 26);
-            this.checkBox2.TabIndex = 18;
-            this.checkBox2.Text = "16+";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(35, 287);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(66, 26);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "18+";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(396, 287);
+            this.button3.Location = new System.Drawing.Point(419, 288);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(80, 31);
             this.button3.TabIndex = 14;
@@ -139,7 +98,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(297, 287);
+            this.button1.Location = new System.Drawing.Point(307, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 31);
             this.button1.TabIndex = 12;
@@ -149,7 +108,7 @@
             // cbbTheLoai
             // 
             this.cbbTheLoai.FormattingEnabled = true;
-            this.cbbTheLoai.Location = new System.Drawing.Point(340, 107);
+            this.cbbTheLoai.Location = new System.Drawing.Point(348, 214);
             this.cbbTheLoai.Name = "cbbTheLoai";
             this.cbbTheLoai.Size = new System.Drawing.Size(136, 30);
             this.cbbTheLoai.TabIndex = 11;
@@ -159,7 +118,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label7.Location = new System.Drawing.Point(260, 112);
+            this.label7.Location = new System.Drawing.Point(268, 219);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 20);
             this.label7.TabIndex = 10;
@@ -196,7 +155,7 @@
             this.txtGiaBan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiaBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtGiaBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaBan.Location = new System.Drawing.Point(340, 211);
+            this.txtGiaBan.Location = new System.Drawing.Point(130, 279);
             this.txtGiaBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.PasswordChar = '\0';
@@ -242,7 +201,7 @@
             this.txtTenSach.PasswordChar = '\0';
             this.txtTenSach.PlaceholderText = "";
             this.txtTenSach.SelectedText = "";
-            this.txtTenSach.Size = new System.Drawing.Size(124, 38);
+            this.txtTenSach.Size = new System.Drawing.Size(261, 38);
             this.txtTenSach.TabIndex = 6;
             // 
             // txtBookID
@@ -270,7 +229,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(260, 224);
+            this.label5.Location = new System.Drawing.Point(31, 288);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 20);
             this.label5.TabIndex = 4;
@@ -331,90 +290,11 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Books Store NND";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label8.Location = new System.Drawing.Point(224, 485);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(155, 20);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Số Lượng Sách còn";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // txtSoLuongSach
-            // 
-            this.txtSoLuongSach.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSoLuongSach.DefaultText = "";
-            this.txtSoLuongSach.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSoLuongSach.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSoLuongSach.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSoLuongSach.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSoLuongSach.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoLuongSach.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtSoLuongSach.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoLuongSach.Location = new System.Drawing.Point(395, 478);
-            this.txtSoLuongSach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtSoLuongSach.Name = "txtSoLuongSach";
-            this.txtSoLuongSach.PasswordChar = '\0';
-            this.txtSoLuongSach.PlaceholderText = "";
-            this.txtSoLuongSach.SelectedText = "";
-            this.txtSoLuongSach.Size = new System.Drawing.Size(135, 36);
-            this.txtSoLuongSach.TabIndex = 16;
-            // 
-            // btnLogOut
-            // 
-            this.btnLogOut.Location = new System.Drawing.Point(395, 544);
-            this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(133, 37);
-            this.btnLogOut.TabIndex = 3;
-            this.btnLogOut.Text = "Đăng Xuất";
-            this.btnLogOut.UseVisualStyleBackColor = true;
-            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
-            // 
-            // btnHD
-            // 
-            this.btnHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHD.Location = new System.Drawing.Point(23, 444);
-            this.btnHD.Name = "btnHD";
-            this.btnHD.Size = new System.Drawing.Size(140, 35);
-            this.btnHD.TabIndex = 17;
-            this.btnHD.Text = "Tạo Hoá Đơn";
-            this.btnHD.UseVisualStyleBackColor = true;
-            // 
-            // btnKH
-            // 
-            this.btnKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKH.Location = new System.Drawing.Point(23, 544);
-            this.btnKH.Name = "btnKH";
-            this.btnKH.Size = new System.Drawing.Size(140, 35);
-            this.btnKH.TabIndex = 18;
-            this.btnKH.Text = "Khách Hàng";
-            this.btnKH.UseVisualStyleBackColor = true;
-            // 
-            // btnNV
-            // 
-            this.btnNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNV.Location = new System.Drawing.Point(23, 494);
-            this.btnNV.Name = "btnNV";
-            this.btnNV.Size = new System.Drawing.Size(140, 35);
-            this.btnNV.TabIndex = 19;
-            this.btnNV.Text = "Nhân Viên";
-            this.btnNV.UseVisualStyleBackColor = true;
-            this.btnNV.Click += new System.EventHandler(this.button5_Click);
-            // 
             // GiaoDien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1474, 641);
-            this.Controls.Add(this.btnNV);
-            this.Controls.Add(this.btnKH);
-            this.Controls.Add(this.btnHD);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtSoLuongSach);
-            this.Controls.Add(this.btnLogOut);
+            this.ClientSize = new System.Drawing.Size(1238, 480);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
@@ -450,17 +330,9 @@
         private System.Windows.Forms.ComboBox cbbTheLoai;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox txtSoLuongSach;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnLogOut;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button btnHD;
-        private System.Windows.Forms.Button btnKH;
-        private System.Windows.Forms.Button btnNV;
         private System.Windows.Forms.Timer timer1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

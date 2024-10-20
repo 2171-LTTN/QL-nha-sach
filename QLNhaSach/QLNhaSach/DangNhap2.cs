@@ -33,10 +33,10 @@ namespace QLNhaSach
 
             if (username == validUsername && password == validPassword)
             {
-                NhanVien nhanVien = new NhanVien();
-                nhanVien.Show();
-                this.Hide();
-                nhanVien.FormClosed += (s, avg) => this.Close();
+                // Mở form NhanVien trong layout
+                layout parentForm = (layout)this.Owner; // Lấy form cha (layout)
+                parentForm.OpenChildFrom(new NhanVien()); // Gọi phương thức mở form con
+                this.Hide(); // Ẩn form đăng nhập
             }
             else
             {
